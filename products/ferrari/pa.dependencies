@@ -40,7 +40,14 @@
         "repository":   "rohanpurohit/proprietary_vendor_xiaomi", 
         "target_path":  "vendor/xiaomi", 
         "revision":     "cm-14.1"
-    }, 
+    },
+ {
+        "remote":       "github",
+        "repository":   "LineageOS/android_frameworks_native",
+        "target_path":  "frameworks/native",
+        "revision":     "cm-14.1"
+    },
+ 
     { 
         "remote":       "github", 
         "repository":   "CyanogenMod/android_external_ant-wireless_antradio-library", 
@@ -52,7 +59,14 @@
         "repository":   "CyanogenMod/android_external_connectivity", 
         "target_path":  "external/connectivity", 
         "revision":     "cm-14.1" 
-    }, 
+    },
+     {
+        "remote":       "github",
+        "repository":   "LineageOS/android_device_cyanogen_msm8916-common",
+        "target_path":  "device/cyanogen/msm8916-common",
+        "revision":     "cm-14.1"
+    },
+ 
     { 
         "remote":       "github", 
         "repository":   "CyanogenMod/android_external_stlport", 
